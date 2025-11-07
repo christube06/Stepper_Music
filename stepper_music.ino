@@ -59,9 +59,9 @@ void playNote(float freq, int duration_ms) {
 
 // HERE YOU PUT THE MELODY AND DURATION LISTS
 
-float melody[] = {C4,D4,E4,F4,G4,A4,B4,C5};
+float melody[] = {262, 294, 330, 349, 392, 440, 494};
 
-int durations[] = {4,4,4,4,4,4,4,4};
+int durations[] = {100,100,100,100,100,100,100,100};
 
 
 void loop() {
